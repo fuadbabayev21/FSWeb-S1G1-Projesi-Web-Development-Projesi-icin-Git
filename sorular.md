@@ -10,18 +10,18 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 ## Sorular
 
-1. Git nedir?
+1. Git nedir? Git, yazılım geliştirme süreçlerinde kullanılan bir versiyon kontrol sistemidir.
 
-2. Git ile GitHub arasında ne fark var?
+2. Git ile GitHub arasında ne fark var? Git, sadece bir sürüm kontrolü sistemidir ve yerel bir bilgisayarda çalışırken GitHub, Git üzerine inşa edilmiş bir bulut barındırma hizmetidir.
 
-3. Neden bir branch oluşturuyoruz?
+3. Neden bir branch oluşturuyoruz? Branch oluşturmak kullanıcıya çalıştığı projenin farklı versiyonlarına erişmesini sağlar.
 
-4. Pull Request'in amacı nedir?
+4. Pull Request'in amacı nedir?  Herhangi bir dalın başka bir kişinin dalıyla birleştirilmesi için bir çekme talebi açmanız gerekir. Çekme isteği, GitHub'ın yaptığınız değişiklikleri ilgili dala dahil etme isteğiniz hakkında ilgili tarafları bilgilendirme yöntemidir.
 
-5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
+5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın? git checkout -b
 
-6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
+6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız. Git fetch , başkalarının uzak depoya yüklediği tüm yeni işlemeleri indirir. Git'de merge işlemi başka bir branch'deki değişiklikleri üzerinde çalıştığınız kendi branch'inize entegre etme işlemidir. "git pull" Komutu: Proje ana dosyasındaki yaptığınız değişikliklerin bilgisayarınızdaki versiyonuna çekilmesini sağlar.
 
-7. Merge conflict nedir?
+7. Merge conflict nedir? İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır.İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır.
 
-8. Merge conflict'i nasıl çözeriz?
+8. Merge conflict'i nasıl çözeriz?Bu durumda çakışma yaşayan kişi gerekirse ekipteki diğer kişi ile beraber oturup çakışmayı çözdükten sonra merge işlemine devam etmelidir.
