@@ -18,7 +18,7 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 4. Pull Request'in amacı nedir?  Herhangi bir dalın başka bir kişinin dalıyla birleştirilmesi için bir çekme talebi açmanız gerekir. Çekme isteği, GitHub'ın yaptığınız değişiklikleri ilgili dala dahil etme isteğiniz hakkında ilgili tarafları bilgilendirme yöntemidir.
 
-5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın? git checkout -b
+5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın? git checkout -b.
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız. Git fetch , başkalarının uzak depoya yüklediği tüm yeni işlemeleri indirir. Git'de merge işlemi başka bir branch'deki değişiklikleri üzerinde çalıştığınız kendi branch'inize entegre etme işlemidir. "git pull" Komutu: Proje ana dosyasındaki yaptığınız değişikliklerin bilgisayarınızdaki versiyonuna çekilmesini sağlar.
 
